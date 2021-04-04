@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  >
+  <LinearLayout android:orientation="horizontal" android:background="#8A9DB7"
+		android:layout_width="fill_parent" android:layout_height="50dip">
+
+
+		<Button android:id="@+id/cancel" android:background="#486B9D"
+			android:textStyle="bold" android:layout_marginLeft="6dip"
+			android:text="Cancel" android:textSize="14dp"
+			android:textColor="#ffffff" android:layout_height="35dip"
+			android:layout_marginTop="8dip" android:layout_width="70dip">
+		</Button>
+		
+		<TextView android:id="@+id/invitation" android:text="Choose your Options" android:textColor="#ffffff"
+			android:textSize="22dp" android:textStyle="bold" android:layout_marginTop="8dip"
+			android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="15dip"/>
+
+				
+</LinearLayout>
+  
+  <TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" 
+			android:textSize="20dip" 
+			android:text="CenterAct FunApp Click Here-->"
+			android:layout_marginTop="5dp"></TextView>
+	 
+  <Button
+ android:layout_width="wrap_content" 
+		android:layout_height="44dip" 
+		android:textSize="16dip" 
+		android:textColor="#304d87"
+		android:textStyle="bold" 
+		android:text="Funapp"
+  android:id="@+id/btnfun" 
+android:layout_marginTop="5dp"
+android:layout_marginLeft="220dp"/>
+  
+  <TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" 
+			android:textSize="20dip" 
+			android:text="To contact user Click Here -->"
+			android:layout_marginTop="50dp"></TextView>
+	 
+   <Button
+   android:layout_width="wrap_content" 
+		android:layout_height="44dip" 
+		android:textSize="16dip" 
+		android:textColor="#304d87"
+		android:textStyle="bold" 
+		 android:text="User Detail"
+  android:id="@+id/btndet" 
+  android:layout_marginLeft="200dp"
+  android:layout_marginTop="5dp"/>
+ </LinearLayout>

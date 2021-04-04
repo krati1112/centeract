@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#000000">
+    
+    <LinearLayout android:orientation="horizontal" android:background="#8A9DB7"
+		android:layout_width="fill_parent" android:layout_height="50dip">
+
+
+		<Button android:id="@+id/btdetcan" android:background="#486B9D"
+			android:textStyle="bold" android:layout_marginLeft="6dip"
+			android:text="Cancel" android:textSize="14dp"
+			android:textColor="#ffffff" android:layout_height="35dip"
+			android:layout_marginTop="8dip" android:layout_width="70dip">
+		</Button>
+		
+		<TextView android:text="Choose your Options" android:textColor="#ffffff"
+			android:textSize="22dp" android:textStyle="bold" android:layout_marginTop="8dip"
+			android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="15dip"/>
+
+				
+</LinearLayout>
+ <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtlgwel"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+  
+     <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtph"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtemail"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+       <!-- <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtdetails"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"/>
+         -->
+  <TableLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:stretchColumns="*"
+        android:layout_marginTop="20dp">
+        <TableRow >
+    
+  <Button 
+        android:layout_width="90dip" 
+		android:layout_height="44dip" 
+		android:textSize="16dip" 
+		android:textColor="#304d87"
+		android:textStyle="bold" 
+		android:id="@+id/btcall"
+        android:text="Call"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"/>
+    <Button 
+        android:layout_width="90dip" 
+		android:layout_height="44dip" 
+		android:textSize="16dip" 
+		android:textColor="#304d87"
+		android:textStyle="bold" 
+        android:id="@+id/btmsg"
+        android:text="Message"
+        android:layout_gravity="right"
+        android:gravity="bottom"/>
+    <Button 
+       android:layout_width="90dip" 
+		android:layout_height="44dip" 
+		android:textSize="16dip" 
+		android:textColor="#304d87"
+		android:textStyle="bold" 
+        android:id="@+id/btmail"
+        android:text="E-Mail"
+        android:layout_gravity="right"
+        android:gravity="bottom"/>
+    </TableRow>
+        
+        
+            </TableLayout>
+        
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  
+  
+<TextView 
+android:textAppearance="?android:attr/textAppearanceLarge" 
+android:text="Change wallpaper after" 
+android:layout_height="wrap_content" 
+android:id="@+id/textView1" 
+android:layout_width="wrap_content">
+</TextView>
+
+<RadioGroup 
+android:id="@+id/radioGroup1" 
+android:layout_width="match_parent" 
+android:layout_height="wrap_content">
+<RadioButton 
+android:layout_height="wrap_content"
+android:id="@+id/radio0" 
+android:text="every 1 minute" 
+android:checked="true" 
+android:layout_width="match_parent">
+</RadioButton>
+<RadioButton 
+android:layout_height="wrap_content" 
+android:id="@+id/radio1" 
+android:text="every 5 minute" 
+android:layout_width="match_parent">
+</RadioButton>
+<RadioButton 
+android:layout_height="wrap_content" 
+android:id="@+id/radio2" 
+android:text="every 10 minute" 
+android:layout_width="match_parent">
+</RadioButton>
+<RadioButton 
+android:layout_height="wrap_content" 
+android:id="@+id/radio3" 
+android:text="every 30 minute" 
+android:layout_width="match_parent">
+</RadioButton>
+<RadioButton 
+android:layout_height="wrap_content" 
+android:id="@+id/radio4"
+android:text="every 1 hour" 
+android:layout_width="match_parent">
+</RadioButton>
+</RadioGroup>
+
+<Button 
+android:layout_height="wrap_content" 
+android:text="Set" 
+android:id="@+id/button1" 
+android:layout_width="match_parent" 
+android:textSize="25sp">
+</Button>
+
+<Button 
+android:layout_height="wrap_content" 
+android:text="Unset" 
+android:id="@+id/button2" 
+android:layout_width="match_parent" 
+android:textSize="25sp">
+</Button>
+
+</LinearLayout>

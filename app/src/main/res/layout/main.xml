@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+  
+     <TextView  android:text="Welcome TO FUNAPP" android:textColor="#ffffff"
+			android:textSize="30dp" 
+			android:gravity="center"
+			android:layout_gravity="center"
+			android:layout_height="wrap_content" android:layout_width="wrap_content" />
+    
+    <ScrollView
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+     android:paddingTop="10dp">
+   <LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    > 
+<TableLayout android:layout_height="wrap_content"
+    			 android:layout_width="wrap_content"
+    			 android:gravity="center"
+    			 android:orientation="vertical"
+    			 android:stretchColumns="*"
+    			>
+    
+    <TableRow>
+    
+    <ImageButton
+        android:id="@+id/pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/photos" />
+        
+     <ImageButton
+        android:id="@+id/video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/video1" />
+     
+    <ImageButton
+        android:id="@+id/cam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cam1" />
+    
+    </TableRow>
+         <TableRow>
+    
+   <TextView  android:text="Picture" android:textColor="#ffffff"
+			android:textSize="15dp"
+			android:gravity="center"
+			android:layout_gravity="center" 
+			android:layout_height="wrap_content" android:layout_width="wrap_content" />
+<TextView  android:text="Video" android:textColor="#ffffff"
+			android:textSize="15dp"
+			android:gravity="center"
+			android:layout_gravity="center" 
+			android:layout_height="20dp" android:layout_width="wrap_content" />
+     
+   <TextView  android:text="Camera" android:textColor="#ffffff"
+			android:textSize="15dp" 
+			android:gravity="center"
+			android:layout_gravity="center"
+			android:layout_height="20dp" android:layout_width="wrap_content" />
+   
+    
+    </TableRow> 
+
+    
+     <TableRow>
+    <ImageButton
+        android:id="@+id/datepicr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tools" />
+    
+    <ImageButton
+        android:id="@+id/audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/music" />
+    
+   <ImageButton
+        android:id="@+id/game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/game" />
+       
+    </TableRow>
+         <TableRow>
+    
+   <TextView  android:text="Date/Time" android:textColor="#ffffff"
+			android:textSize="15dp" 
+			android:gravity="center"
+			android:layout_gravity="center"
+			android:layout_height="20dp" android:layout_width="wrap_content" />
+<TextView  android:text="Music" android:textColor="#ffffff"
+			android:textSize="15dp" 
+			android:gravity="center"
+			android:layout_gravity="center"
+			android:layout_height="20dp" android:layout_width="wrap_content" />
+     
+   <TextView  android:text="Game" android:textColor="#ffffff"
+			android:textSize="15dp" 
+			android:gravity="center"
+			android:layout_gravity="center"
+			android:layout_height="20dp" android:layout_width="wrap_content" />
+   
+    
+    </TableRow> 
+
+    
+    <TableRow>
+    
+    <ImageButton
+        android:id="@+id/calc"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/calc" />
+ <ImageButton
+        android:id="@+id/galry"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/galry" />
+ <ImageButton android:id="@+id/wallswap" 
+ android:src="@drawable/wall"
+  android:layout_height="100dp"
+   android:layout_width="wrap_content"></ImageButton>
+        
+    </TableRow> 
+     <TableRow>
+    
+   <TextView  android:text="Calculator" android:textColor="#ffffff"
+			android:textSize="15dp" 
+			android:gravity="center"
+			android:layout_gravity="center"
+			android:layout_height="20dp" android:layout_width="wrap_content" />
+<TextView  android:text="Gallery" android:textColor="#ffffff"
+			android:textSize="15dp" 
+			android:gravity="center"
+			android:layout_gravity="center"
+			android:layout_height="20dp" android:layout_width="wrap_content" />
+     
+   <TextView  android:text="Wallpaper" android:textColor="#ffffff"
+			android:textSize="15dp" 
+			android:gravity="center"
+			android:layout_gravity="center"
+			android:layout_height="20dp" android:layout_width="wrap_content" />
+   
+    
+    </TableRow> 
+   
+    </TableLayout> 
+    </LinearLayout>
+    </ScrollView>   
+</LinearLayout>
+    

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scientific Calculator(SHIFT)"
+        android:layout_gravity="center" 
+        android:textSize="30dp"
+        android:textColor="#FF6993"
+        />
+    <EditText 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/edt1"/>
+     <TableLayout 
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:orientation="vertical"
+         
+         android:padding="20dp"> 
+         
+          <TableRow 
+             android:layout_marginBottom="20dp">
+         <Button 
+             android:layout_height="40dp"
+             android:layout_width="50dp"
+             android:text="Del"
+             android:id="@+id/btdel1"/>
+         <Button 
+             android:layout_height="40dp"
+             android:layout_width="wrap_content"
+             android:text="ClR"
+             android:id="@+id/btclr1"/>
+          <Button 
+             android:layout_height="40dp"
+             android:layout_width="wrap_content"
+             android:text="BK"
+             android:id="@+id/bk1"/>
+         
+         
+         
+         </TableRow>
+         <TableRow 
+             android:layout_marginBottom="20dp">
+         <Button 
+             android:layout_height="40dp"
+             android:layout_width="40dp"
+             android:text="Sin"
+             android:id="@+id/btsin"/>
+         
+         
+         <Button 
+             android:layout_height="40dp"
+             android:layout_width="40dp"
+             android:text="Cos"
+             android:id="@+id/btcos"/>
+          <Button 
+             android:layout_height="40dp"
+             android:layout_width="40dp"
+             android:text="Tan"
+             android:id="@+id/btan"/>
+           
+         
+         </TableRow>
+         
+          <TableRow 
+              android:layout_marginBottom="20dp">
+         <Button 
+             android:layout_height="40dp"
+             android:layout_width="40dp"
+             android:text="x!"
+             android:id="@+id/btfac"/>
+         <Button 
+             android:layout_height="40dp"
+             android:layout_width="40dp"
+             android:text="Exp"
+             android:id="@+id/btexp"/>
+          <Button 
+             android:layout_height="40dp"
+             android:layout_width="40dp"
+             android:text="log"
+             android:id="@+id/btlog"/>
+           <Button 
+             android:layout_height="40dp"
+             android:layout_width="40dp"
+             android:text="log10"
+             android:id="@+id/btlog1"/>   
+             
+           <Button 
+             android:layout_height="40dp"
+             android:layout_width="40dp"
+             android:text="hyp"
+             android:id="@+id/bthyp"/>
+           
+          
+         </TableRow>
+         
+         
+     </TableLayout>
+    
+
+</LinearLayout>
